@@ -1,0 +1,17 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+#principal{
+    color: chartreuse;
+    text-align: center;
+}
+.basico{
+    color: aqua;
+}
+.medio{
+    color: aquamarine;
+}
+.avancado{
+    color: blueviolet;
+}

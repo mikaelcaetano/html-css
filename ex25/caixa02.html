@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: hotpink;
+            margin: 0px;
+        }
+        header{
+            background-color: deeppink;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: fuchsia;
+            padding: 10px;
+            box-shadow: 5px 3px 6px 10px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: rgb(231, 9, 120);
+            border-radius: 10px 10px 10px 10px;
+        }
+
+        article{
+            background-color: crimson;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: blueviolet;
+        }
+        footer{
+            background-color: black;
+            color: aqua;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        div#bola{
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assusnots">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticias do brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, cupiditate, perferendis, quia eius sunt exercitationem assumenda aperiam nostrum repellendus quisquam alias consectetur. Nesciunt, voluptas provident nisi repellendus assumenda commodi sint!</p>
+                <aside>
+                    <p>artigo escrito por mikael</p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por mikael caetano</p>
+
+    </footer>
+    <div id="bola">
+    
+    </div>
+
+    
+</body>
+</html>

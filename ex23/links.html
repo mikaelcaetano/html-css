@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links personalizados</title>
+    <style>
+        body{
+            
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: chartreuse;
+        }
+        a:hover{
+            color: coral;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::before{
+            content: 'link';
+            color: blue;
+            font-size: xx-large;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>links personalizados</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">github</a></li>
+    </ul>
+    
+</body>
+</html>

@@ -1,0 +1,20 @@
+
+body{background-image: linear-gradient(to right, #D9307F, #D9329E, #A33BBF, #F2762E, #F24B4B);
+background-attachment: fixed;}
+main{
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #F24B4B;
+    width: 600px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    size: 100px;
+    color: #F24B4B;
+}
+
+
